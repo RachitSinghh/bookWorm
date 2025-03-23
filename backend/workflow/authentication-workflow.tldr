@@ -36,9 +36,9 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 4125.636426187291,
-			"y": 101.85603030985953,
-			"lastActivityTimestamp": 1742723851767,
+			"x": 3219.0442150099207,
+			"y": 353.6578669979202,
+			"lastActivityTimestamp": 1742736541110,
 			"meta": {}
 		},
 		{
@@ -171,9 +171,9 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -2365.894477134487,
-			"y": 901.7990543025626,
-			"z": 0.3586889614961896,
+			"x": -1623.2588098287151,
+			"y": 521.8906457493719,
+			"z": 0.3906122790693505,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -366,39 +366,6 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 4057.7178188262037,
-			"y": 104.0326115962473,
-			"rotation": 0,
-			"isLocked": false,
-			"opacity": 0.75,
-			"meta": {},
-			"id": "shape:TtTGD9gvXQuO90czlKr_f",
-			"type": "text",
-			"props": {
-				"color": "black",
-				"size": "s",
-				"w": 16,
-				"font": "draw",
-				"textAlign": "middle",
-				"autoSize": true,
-				"scale": 1,
-				"richText": {
-					"type": "doc",
-					"content": [
-						{
-							"type": "paragraph",
-							"attrs": {
-								"dir": "auto"
-							}
-						}
-					]
-				}
-			},
-			"parentId": "page:page",
-			"index": "aa2Se",
-			"typeName": "shape"
-		},
-		{
 			"x": -1234.7929102217722,
 			"y": -84.46353418562603,
 			"rotation": 0,
@@ -523,12 +490,12 @@
 			"typeName": "shape"
 		},
 		{
-			"editingShapeId": "shape:TtTGD9gvXQuO90czlKr_f",
+			"editingShapeId": "shape:Rd18nMZizxCMA7wg0ZIGh",
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:TtTGD9gvXQuO90czlKr_f"
+				"shape:Rd18nMZizxCMA7wg0ZIGh"
 			],
-			"hoveredShapeId": "shape:TtTGD9gvXQuO90czlKr_f",
+			"hoveredShapeId": "shape:Rd18nMZizxCMA7wg0ZIGh",
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -844,15 +811,9 @@
 							"content": [
 								{
 									"type": "text",
-									"text": "Login workflow"
+									"text": "Login Workflow"
 								}
 							]
-						},
-						{
-							"type": "paragraph",
-							"attrs": {
-								"dir": "auto"
-							}
 						},
 						{
 							"type": "orderedList",
@@ -871,7 +832,7 @@
 											"content": [
 												{
 													"type": "text",
-													"text": "You type your username, email and password into the signup form"
+													"text": "You type your email and password into the login form. "
 												}
 											]
 										}
@@ -888,7 +849,7 @@
 											"content": [
 												{
 													"type": "text",
-													"text": "The app makes sure you've filled out everything correctly (password long enough , valid email format)."
+													"text": "The app makes sure you've filled out all required fields"
 												}
 											]
 										}
@@ -905,7 +866,7 @@
 											"content": [
 												{
 													"type": "text",
-													"text": "When you tap \"Sign up, \" your information is sent to the server. "
+													"text": "When you tap \"Login\", your credentials are sent to the server "
 												}
 											]
 										}
@@ -922,7 +883,7 @@
 											"content": [
 												{
 													"type": "text",
-													"text": "The server checks its database to see if your username or email is already begin used by someone else."
+													"text": "The server checks its database to find a user with your email address. "
 												}
 											]
 										}
@@ -939,7 +900,7 @@
 											"content": [
 												{
 													"type": "text",
-													"text": "If everytihng is good, the server creates a new user account for you "
+													"text": "If found, the server compares your password with the stored(encrypted) password. "
 												}
 											]
 										}
@@ -956,7 +917,7 @@
 											"content": [
 												{
 													"type": "text",
-													"text": "The server generate a JWT (JSON Web Token), which is like a special digital ID card. "
+													"text": "If the passwords match, the server generates a JWT(JSON Web Token), which is like a special digital ID card. "
 												}
 											]
 										}
@@ -973,7 +934,7 @@
 											"content": [
 												{
 													"type": "text",
-													"text": "The server sends this token backto your app along with some basic infor about your account"
+													"text": "The server sends this toke back to your app along with some basic info about your account. "
 												}
 											]
 										}
@@ -990,7 +951,7 @@
 											"content": [
 												{
 													"type": "text",
-													"text": "The app stores this token on your device using something called asyncStorage(like a small cabinet for app data). "
+													"text": "The app stores this token on your device using AsyncStorage(like a small file cabinet for app data)."
 												}
 											]
 										}
@@ -1007,7 +968,7 @@
 											"content": [
 												{
 													"type": "text",
-													"text": "You're now logged in and can use the app. "
+													"text": "You're now logged in and can use the APP!"
 												}
 											]
 										}
@@ -1453,8 +1414,8 @@
 			"screenBounds": {
 				"x": 0,
 				"y": 0,
-				"w": 1240,
-				"h": 750.4000244140625
+				"w": 984.6666870117188,
+				"h": 606
 			},
 			"insets": [
 				false,
@@ -1469,7 +1430,7 @@
 			"isChatting": false,
 			"highlightedUserIds": [],
 			"isFocused": true,
-			"devicePixelRatio": 1.25,
+			"devicePixelRatio": 1.5,
 			"isCoarsePointer": false,
 			"isHoveringCanvas": true,
 			"openMenus": [],

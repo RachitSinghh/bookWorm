@@ -1,6 +1,6 @@
 import { View, Text, BackHandler,StyleSheet } from 'react-native'
 import { useSafeAreaInsets } from 'react-native-safe-area-context'
-import COLORS from '../constants/color'
+import COLORS from '../constants/colors'
 import React from 'react'
 
 export default function SafeScreen({children}) {

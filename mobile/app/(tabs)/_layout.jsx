@@ -2,30 +2,29 @@ import { View, Text } from "react-native";
 import React from "react";
 import { Tabs } from "expo-router";
 import { Ionicons } from "@expo/vector-icons";
-import COLORS from "../../constants/colors"
+import COLORS from "../../constants/colors";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 
 export default function TabLayout() {
-  const insets = useSafeAreaInsets(); 
+  const insets = useSafeAreaInsets();
   return (
     <Tabs
       screenOptions={{
         headerShown: false,
-        tabBarActiveTintColor: COLORS.primary, 
-        headerTitleSytle:{
+        tabBarActiveTintColor: COLORS.primary,
+        headerTitleSytle: {
           color: COLORS.textPrimary,
-          fontWeight: "600"
+          fontWeight: "600",
         },
-        headerShadowVisible: false, 
-        tabBarStyle:{
-          backgroundColor: COLORS.cardBackground, 
-          borderTopWidth: 1, 
-          borderTopColor: COLORS.border, 
+        headerShadowVisible: false,
+        tabBarStyle: {
+          backgroundColor: COLORS.cardBackground,
+          borderTopWidth: 1,
+          borderTopColor: COLORS.border,
           padding: 5,
           paddingBottom: insets.bottom,
-          height: 60 + insets.bottom, 
-          
-        }
+          height: 60 + insets.bottom,
+        },
       }}
     >
       <Tabs.Screen
